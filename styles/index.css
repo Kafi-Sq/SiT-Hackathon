@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.par p{
+    margin: 0;
+    font-weight: bold;
+}
+
+main .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+main {
+    margin-bottom: 70px;
+}
+
+main .title p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .title img {
+    height: 20px;
+}
+
+main .nineThou {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: baseline;
+}
+
+main .nineThou p {
+    font-size: 35px;
+    margin: 0;
+    font-weight: bold;
+}
+
+main .nineThou .usd {
+    font-size: 18px;
+}
+
+main .chart{
+    position: relative;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+
+main .chart .live {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+main .chart .group {
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    left: 12px;
+}
+
+main .days {
+    display: flex;
+    justify-content: space-around;
+    grid-area: 20px;
+}
+
+main .days p {
+    margin: 0;
+    color: gray;
+    cursor: pointer;
+}
+main .days p:hover{
+    background-color: #F5C249;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 20px;
+    margin-top: -6px;
+}
+
+
+.title .full {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+main .vests .oneVest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+main .vests .oneVest .vestImg {
+    margin-left: 25px;
+}
+main .vests .oneVest .vestImg img {
+    height: 30px;
+}
+main .vests .oneVest .vestImg .nike {
+    height: 15px;
+}
+
+main .vests .oneVest .vestTitle {
+    width: 80px;
+}
+
+main .vests .oneVest .vestTitle p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+main .vests .oneVest .vestTitle .shares {
+    font-weight: normal;
+    color: gray;
+}
+
+main .vests .oneVest .vestPrice p{
+    margin: 0;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+main .vests .oneVest .vestPrice .percent {
+    font-weight: normal;
+    color: #1eeb88;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+main .learning {
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: -10px;
+    left: -2px;
+}
+
+footer img {
+    height: 68px;
+}

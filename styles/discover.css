@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.par p{
+    margin: 0;
+    font-weight: bold;
+}
+
+main .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+
+.title .full {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+main .title p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main .title input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+main {
+    margin-bottom: 70px;
+}
+
+main .halalImg {
+    margin-left: 15px;
+}
+main .halalImg img {
+    cursor: pointer;
+}
+main .halalImg .gap{
+    margin-right: 30px;
+}
+
+main .news {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    border-bottom: 2px solid rgb(199, 199, 199);
+}
+
+main .news .text {
+    position: relative;
+}
+
+main .news .text img {
+    position: absolute;
+    left: -12px;
+    top: -1px;
+}
+
+main .news .text p{
+    margin: 0;
+    font-size: 13px;
+    width: 250px;
+}
+
+main .news .text .textTitle {
+    font-weight: bold;
+}
+
+main .news .text .textTitle span {
+    font-weight: normal;
+    color: gray;
+    margin-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: -10px;
+    left: -2px;
+}
+
+footer img {
+    height: 68px;
+}

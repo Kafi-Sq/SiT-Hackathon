@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.par p{
+    margin: 0;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 50px;
+}
+
+main img {
+    margin-left: -10px;
+    height: 340px;
+}
+
+.mainText {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.mainText p {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0;
+} 
+
+.mainText .conn {
+    margin-top: 5px;
+    color: #F5C249;
+    position: relative;
+}
+
+.mainText .conn .super {
+    font-size: 25px;
+    font-weight: 600;
+    top: 4px;
+    position: absolute;
+}
+
+.mainButton {
+    margin-top: 60px;
+    margin-left: 280px;
+}
+
+.mainButton button {
+    padding: 20px;
+    width: 90px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F5C249;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a{ text-decoration: none; color: black;}
