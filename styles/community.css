@@ -100,6 +100,12 @@ main .title p {
     color: #1eeb88;
     font-size: 14px;
 }
+.pert {
+    margin-top: 5px;
+    margin-left: 80px;
+    color: #eb2c1e;
+    font-size: 14px;
+}
 
 .mainImg {
     margin-left: 20px;
